@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.boxP {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  max-width: 100%;
+}
+
+.boxTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 600px;
+  background-image: url(assets/image-header.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.boxTop .logo {
+  background-image: url(assets/logo.svg);
+  width: 45%;
+  height: 25%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.boxTop h1 {
+  font-family: "fraunces", bold;
+  font-size: 250%;
+  position: relative;
+  text-align: center;
+  letter-spacing: 8px;
+  color: white;
+}
+
+.box1 {
+  height: 440px;
+  background-image: url(assets/image-transform.jpg);
+  background-position: center;
+}
+
+.box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 500px;
+  text-align: center;
+}
+
+.box2 h2 {
+  font-size: 35px;
+  padding: 0% 10%;
+}
+
+.box2 .p1 {
+  padding: 0% 10%;
+  font-size: 20px;
+  font-family: Barlow;
+}
+
+.box3 {
+  height: 440px;
+  background-image: url(assets/image-stand-out.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box4 {
+  height: 500px;
+}
+
+.box5 {
+  height: 700px;
+  background-image: url(assets/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box6 {
+  height: 700px;
+  background-image: url(assets/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.boxGal {
+  height: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.boxGal .img1 {
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(assets/image-gallery-milkbottles.jpg);
+}
+
+.boxGal .img2 {
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(assets/image-gallery-orange.jpg);
+}
+
+.boxGal .img3 {
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(assets/image-gallery-cone.jpg);
+}
+
+.boxGal .img4 {
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-image: url(assets/image-gallery-sugarcubes.jpg);
+}
+
+.boxBot {
+  height: 100vw;
+  background-color: #90D4C6;
+}
+/*# sourceMappingURL=style.css.map */
